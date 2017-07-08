@@ -1,0 +1,3568 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API",
+  "osm3s": {
+    "timestamp_osm_base": "2016-02-03T22:00:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 26686526,
+  "lat": 48.1113387,
+  "lon": -1.6800198,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35000;35200;35700",
+    "capital": "4",
+    "name": "Rennes",
+    "name:ar": "رين",
+    "name:az": "Ren",
+    "name:be": "Рэн",
+    "name:be-tarask": "Рэн",
+    "name:bg": "Рен",
+    "name:br": "Roazhon",
+    "name:cy": "Roazhon",
+    "name:el": "Ρεν",
+    "name:en": "Rennes",
+    "name:fa": "رن",
+    "name:fr": "Rennes",
+    "name:frp": "Rènes",
+    "name:he": "רן",
+    "name:hu": "Rennes",
+    "name:hy": "Ռեն",
+    "name:ja": "レンヌ",
+    "name:ka": "რენი",
+    "name:ko": "렌",
+    "name:la": "Condate",
+    "name:lt": "Renas",
+    "name:lv": "Renna",
+    "name:mr": "ऱ्हेन",
+    "name:mzn": "رن",
+    "name:oc": "Rennes",
+    "name:pnb": "رینے",
+    "name:ru": "Ренн",
+    "name:sr": "Рен",
+    "name:ta": "ரேன்",
+    "name:th": "แรน",
+    "name:ug": "Rénn Shehiri",
+    "name:uk": "Ренн",
+    "name:ur": "رین",
+    "name:zh": "雷恩",
+    "place": "city",
+    "population": "207178",
+    "ref:FR:SIREN": "213502388",
+    "ref:INSEE": "35238",
+    "source:population": "INSEE 2013",
+    "website": "http://metropole.rennes.fr/",
+    "wikipedia": "fr:Rennes"
+  }
+},
+{
+  "type": "node",
+  "id": 26691521,
+  "lat": 48.6454528,
+  "lon": -2.0154180,
+  "tags": {
+    "OGM": "no",
+    "addr:postcode": "35400",
+    "name": "Saint-Malo",
+    "name:br": "Sant-Maloù",
+    "name:fr": "Saint-Malo",
+    "place": "town",
+    "population": "46342",
+    "ref:FR:SIREN": "213502883",
+    "ref:INSEE": "35288",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26691820,
+  "lat": 48.3536781,
+  "lon": -1.2022211,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35300",
+    "name": "Fougères",
+    "name:be": "Фужэр",
+    "name:br": "Felger",
+    "name:ca": "Felger",
+    "name:fa": "فوژر",
+    "name:fr": "Fougères",
+    "name:ja": "フージェール",
+    "name:kk": "Фужер",
+    "name:ko": "푸제르",
+    "name:la": "Filiceriae",
+    "name:mzn": "فوژر",
+    "name:oc": "Felger",
+    "name:ru": "Фужер",
+    "name:sr": "Фужер",
+    "name:uk": "Фужер",
+    "name:zh": "富热尔",
+    "place": "town",
+    "population": "19820",
+    "ref:FR:SIREN": "213501158",
+    "ref:INSEE": "35115",
+    "wikipedia": "fr:Fougères"
+  }
+},
+{
+  "type": "node",
+  "id": 26692039,
+  "lat": 48.1223672,
+  "lon": -1.5955935,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35510",
+    "name": "Cesson-Sévigné",
+    "name:br": "Saozon-Sevigneg",
+    "place": "town",
+    "population": "15219",
+    "ref:FR:SIREN": "213500515",
+    "ref:INSEE": "35051",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694289,
+  "lat": 48.1372782,
+  "lon": -1.9551450,
+  "tags": {
+    "addr:postcode": "35160",
+    "name": "Montfort-sur-Meu",
+    "name:br": "Moñforzh",
+    "name:fr": "Montfort-sur-Meu",
+    "place": "village",
+    "population": "6458",
+    "ref:FR:SIREN": "213501885",
+    "ref:INSEE": "35188",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694302,
+  "lat": 48.5952811,
+  "lon": -1.8437735,
+  "tags": {
+    "addr:postcode": "35111",
+    "name": "La Fresnais",
+    "name:br": "An Onneg",
+    "place": "village",
+    "population": "2199",
+    "ref:FR:SIREN": "213501166",
+    "ref:INSEE": "35116",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694313,
+  "lat": 48.3293178,
+  "lon": -1.8352875,
+  "tags": {
+    "addr:postcode": "35190",
+    "name": "Tinténiac",
+    "name:br": "Tintenieg",
+    "place": "village",
+    "population": "3373",
+    "ref:FR:SIREN": "213503378",
+    "ref:INSEE": "35337",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694329,
+  "lat": 48.2145992,
+  "lon": -1.5059748,
+  "tags": {
+    "OGM": "non",
+    "name": "Liffré",
+    "name:br": "Liverieg",
+    "name:fr": "Liffré",
+    "name:uk": "Ліффре",
+    "place": "village",
+    "population": "6829",
+    "ref:FR:SIREN": "213501521",
+    "ref:INSEE": "35152",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Liffré"
+  }
+},
+{
+  "type": "node",
+  "id": 26694508,
+  "lat": 47.6571027,
+  "lon": -2.0824145,
+  "tags": {
+    "OGM": "no",
+    "addr:postcode": "35600",
+    "name": "Redon",
+    "name:br": "Redon",
+    "name:fr": "Redon",
+    "place": "town",
+    "population": "9592",
+    "ref:FR:SIREN": "213502362",
+    "ref:INSEE": "35236",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694521,
+  "lat": 48.1247951,
+  "lon": -1.8645101,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35590",
+    "name": "La Chapelle-Thouarault",
+    "name:br": "Bredual",
+    "place": "village",
+    "population": "1926",
+    "ref:FR:SIREN": "213500655",
+    "ref:INSEE": "35065",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694585,
+  "lat": 48.5991065,
+  "lon": -1.9730216,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35430",
+    "name": "Saint-Jouan-des-Guérets",
+    "name:br": "Sant-Yowan-an-Havreg",
+    "place": "village",
+    "population": "2672",
+    "ref:FR:SIREN": "213502842",
+    "ref:INSEE": "35284",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694629,
+  "lat": 48.1535233,
+  "lon": -1.5800238,
+  "tags": {
+    "name": "Thorigné-Fouillard",
+    "name:br": "Torigneg-Fouilharzh",
+    "place": "village",
+    "population": "7140",
+    "postal_code": "35235",
+    "ref:FR:SIREN": "213503345",
+    "ref:INSEE": "35334",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694656,
+  "lat": 48.2630217,
+  "lon": -1.6070770,
+  "tags": {
+    "addr:postcode": "35250",
+    "name": "Saint-Aubin-d'Aubigné",
+    "name:br": "Sant-Albin-Elvinieg",
+    "place": "village",
+    "population": "3310",
+    "ref:FR:SIREN": "213502511",
+    "ref:INSEE": "35251",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694730,
+  "lat": 48.4261564,
+  "lon": -1.5744036,
+  "tags": {
+    "addr:postcode": "35560",
+    "name": "Bazouges-la-Pérouse",
+    "name:br": "Bazeleg-ar-Veineg",
+    "place": "village",
+    "population": "1877",
+    "ref:FR:SIREN": "213500192",
+    "ref:INSEE": "35019",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694738,
+  "lat": 48.1539357,
+  "lon": -1.8299928,
+  "tags": {
+    "addr:postcode": "35590",
+    "name": "Saint-Gilles",
+    "name:br": "Sant-Jili-Roazhon",
+    "name:fr": "Saint-Gilles",
+    "place": "village",
+    "population": "3753",
+    "population:date": "2009",
+    "ref:FR:SIREN": "213502750",
+    "ref:INSEE": "35275",
+    "wikipedia": "fr:Saint-Gilles (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 26694749,
+  "lat": 48.6354993,
+  "lon": -2.1090269,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35800",
+    "name": "Saint-Lunaire",
+    "name:br": "Sant-Luner",
+    "place": "village",
+    "population": "2329",
+    "ref:FR:SIREN": "213502875",
+    "ref:INSEE": "35287",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694793,
+  "lat": 48.1092798,
+  "lon": -1.9269063,
+  "tags": {
+    "addr:postcode": "35160",
+    "name": "Talensac",
+    "name:br": "Talenseg",
+    "place": "village",
+    "population": "2353",
+    "ref:FR:SIREN": "213503311",
+    "ref:INSEE": "35331",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26694853,
+  "lat": 48.1140789,
+  "lon": -1.5234735,
+  "tags": {
+    "addr:postcode": "35530",
+    "name": "Noyal-sur-Vilaine",
+    "name:br": "Noal-ar-Gwilen",
+    "place": "village",
+    "population": "5441",
+    "ref:FR:SIREN": "213502073",
+    "ref:INSEE": "35207",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Noyal-sur-Vilaine"
+  }
+},
+{
+  "type": "node",
+  "id": 26694931,
+  "lat": 47.9958761,
+  "lon": -1.6162609,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35230",
+    "name": "Bourgbarré",
+    "name:br": "Bourvarred",
+    "place": "village",
+    "population": "3458",
+    "ref:FR:SIREN": "213500325",
+    "ref:INSEE": "35032",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695046,
+  "lat": 48.2577823,
+  "lon": -1.4024515,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35140",
+    "name": "Saint-Aubin-du-Cormier",
+    "name:br": "Sant-Albin-an-Hiliber",
+    "place": "village",
+    "population": "3578",
+    "ref:FR:SIREN": "213502537",
+    "ref:INSEE": "35253",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695049,
+  "lat": 48.0873022,
+  "lon": -1.6191867,
+  "tags": {
+    "addr:postcode": "35135",
+    "name": "Chantepie",
+    "name:br": "Kantpig",
+    "place": "town",
+    "population": "10034",
+    "ref:FR:SIREN": "213500556",
+    "ref:INSEE": "35055",
+    "source:population": "INSEE 2014",
+    "wikipedia": "fr:Chantepie"
+  }
+},
+{
+  "type": "node",
+  "id": 26695072,
+  "lat": 48.2204891,
+  "lon": -1.7896366,
+  "tags": {
+    "addr:postcode": "35850",
+    "name": "Gévezé",
+    "name:br": "Gevrezeg",
+    "name:uk": "Жевезе",
+    "place": "village",
+    "population": "3945",
+    "ref:FR:SIREN": "213501208",
+    "ref:INSEE": "35120",
+    "wikipedia": "fr:Gévezé"
+  }
+},
+{
+  "type": "node",
+  "id": 26695135,
+  "lat": 48.1243000,
+  "lon": -1.8183000,
+  "tags": {
+    "addr:postcode": "35590",
+    "name": "L'Hermitage",
+    "name:br": "Ar Peniti",
+    "place": "village",
+    "population": "3835",
+    "ref:FR:SIREN": "213501315",
+    "ref:INSEE": "35131",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695222,
+  "lat": 48.1838953,
+  "lon": -1.4375820,
+  "tags": {
+    "addr:postcode": "35340",
+    "name": "La Bouëxière",
+    "name:br": "Beuzid-ar-C'hoadoù",
+    "place": "village",
+    "population": "3834",
+    "ref:FR:SIREN": "213500317",
+    "ref:INSEE": "35031",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:La Bouëxière"
+  }
+},
+{
+  "type": "node",
+  "id": 26695342,
+  "lat": 48.2193772,
+  "lon": -1.7557922,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35520",
+    "name": "La Mézière",
+    "name:br": "Magoer",
+    "place": "village",
+    "population": "4320",
+    "ref:FR:SIREN": "213501778",
+    "ref:INSEE": "35177",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695355,
+  "lat": 48.4108464,
+  "lon": -1.3641603,
+  "tags": {
+    "addr:postcode": "35460",
+    "name": "Saint-Brice-en-Coglès",
+    "name:br": "Sant-Brizh-Gougleiz",
+    "place": "village",
+    "population": "2752",
+    "ref:FR:SIREN": "213502578",
+    "ref:INSEE": "35257",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695379,
+  "lat": 48.1799946,
+  "lon": -1.9448081,
+  "tags": {
+    "addr:postcode": "35137",
+    "name": "Bédée",
+    "name:br": "Bezeg",
+    "place": "village",
+    "population": "3997",
+    "ref:FR:SIREN": "213500234",
+    "ref:INSEE": "35023",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695440,
+  "lat": 48.0539088,
+  "lon": -1.7881749,
+  "tags": {
+    "addr:postcode": "35310",
+    "name": "Chavagne",
+    "name:br": "Kavan",
+    "place": "village",
+    "population": "3725",
+    "ref:FR:SIREN": "213500762",
+    "ref:INSEE": "35076",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695503,
+  "lat": 47.9784056,
+  "lon": -1.7199066,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35890",
+    "name": "Laillé",
+    "name:br": "Lalieg",
+    "place": "village",
+    "population": "4364",
+    "ref:FR:SIREN": "213501398",
+    "ref:INSEE": "35139"
+  }
+},
+{
+  "type": "node",
+  "id": 26695553,
+  "lat": 48.1214690,
+  "lon": -1.4603703,
+  "tags": {
+    "addr:postcode": "35530",
+    "name": "Servon-sur-Vilaine",
+    "name:br": "Servon",
+    "place": "village",
+    "population": "3542",
+    "ref:FR:SIREN": "213503279",
+    "ref:INSEE": "35327",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Servon-sur-Vilaine"
+  }
+},
+{
+  "type": "node",
+  "id": 26695638,
+  "lat": 48.6251435,
+  "lon": -2.0584211,
+  "tags": {
+    "addr:postcode": "35800",
+    "name": "Dinard",
+    "name:br": "Dinarzh",
+    "name:uk": "Дінар",
+    "place": "town",
+    "population": "10579",
+    "ref:INSEE": "35093",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Dinard"
+  }
+},
+{
+  "type": "node",
+  "id": 26695651,
+  "lat": 48.0459692,
+  "lon": -1.5051974,
+  "tags": {
+    "addr:postcode": "35410",
+    "name": "Châteaugiron",
+    "name:br": "Kastell-Geron",
+    "name:fr": "Châteaugiron",
+    "place": "village",
+    "population": "6545",
+    "ref:FR:SIREN": "213500697",
+    "ref:INSEE": "35069",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695731,
+  "lat": 48.1006697,
+  "lon": -1.7937675,
+  "tags": {
+    "OGM": "no",
+    "addr:postcode": "35650",
+    "name": "Le Rheu",
+    "name:br": "Reuz",
+    "name:fr": "Le Rheu",
+    "place": "village",
+    "population": "7669",
+    "ref:FR:SIREN": "213502404",
+    "ref:INSEE": "35240",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695732,
+  "lat": 47.8975829,
+  "lon": -1.9948157,
+  "tags": {
+    "addr:postcode": "35330",
+    "name": "Maure-de-Bretagne",
+    "name:br": "Anast",
+    "place": "village",
+    "population": "3203",
+    "ref:FR:SIREN": "213501687",
+    "ref:INSEE": "35168",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695774,
+  "lat": 48.0574022,
+  "lon": -1.1525093,
+  "tags": {
+    "addr:postcode": "35370",
+    "name": "Argentré-du-Plessis",
+    "name:br": "Argantred-ar-Genkiz",
+    "place": "village",
+    "population": "4212",
+    "ref:FR:SIREN": "213500069",
+    "ref:INSEE": "35006",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Argentré-du-Plessis"
+  }
+},
+{
+  "type": "node",
+  "id": 26695845,
+  "lat": 48.1459113,
+  "lon": -1.8996064,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35160",
+    "name": "Breteil",
+    "name:br": "Brezhiel",
+    "place": "village",
+    "population": "3442",
+    "ref:FR:SIREN": "213500408",
+    "ref:INSEE": "35040"
+  }
+},
+{
+  "type": "node",
+  "id": 26695850,
+  "lat": 47.7234217,
+  "lon": -1.7323074,
+  "tags": {
+    "addr:postcode": "35390",
+    "name": "Grand-Fougeray",
+    "name:br": "Felgerieg-Veur",
+    "place": "village",
+    "population": "2352",
+    "ref:FR:SIREN": "213501240",
+    "ref:INSEE": "35124",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26695870,
+  "lat": 48.1554811,
+  "lon": -1.7163080,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35760",
+    "name": "Montgermont",
+    "name:br": "Menezgervant",
+    "place": "village",
+    "population": "3085",
+    "ref:FR:SIREN": "213501893",
+    "ref:INSEE": "35189"
+  }
+},
+{
+  "type": "node",
+  "id": 26695885,
+  "lat": 48.0414284,
+  "lon": -1.5480640,
+  "tags": {
+    "addr:postcode": "35410",
+    "name": "Nouvoitou",
+    "name:br": "Neveztell",
+    "place": "village",
+    "population": "2895",
+    "ref:FR:SIREN": "213502040",
+    "ref:INSEE": "35204",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696028,
+  "lat": 47.8088832,
+  "lon": -1.9462224,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35550",
+    "name": "Pipriac",
+    "name:br": "Presperieg",
+    "place": "village",
+    "population": "3559",
+    "ref:FR:SIREN": "213502198",
+    "ref:INSEE": "35219",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696032,
+  "lat": 48.6771721,
+  "lon": -1.8506953,
+  "tags": {
+    "addr:postcode": "35260",
+    "name": "Cancale",
+    "name:br": "Kankaven",
+    "place": "village",
+    "population": "5324",
+    "ref:FR:SIREN": "213500499",
+    "ref:INSEE": "35049",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696063,
+  "lat": 48.1817122,
+  "lon": -1.6414898,
+  "tags": {
+    "addr:postcode": "35830",
+    "name": "Betton",
+    "name:br": "Lanvezhon",
+    "name:fr": "Betton",
+    "name:uk": "Беттон",
+    "place": "town",
+    "population": "10137",
+    "ref:FR:SIREN": "213500242",
+    "ref:INSEE": "35024",
+    "wikipedia": "fr:Betton"
+  }
+},
+{
+  "type": "node",
+  "id": 26696269,
+  "lat": 48.1108554,
+  "lon": -1.3982411,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35220",
+    "name": "Châteaubourg",
+    "name:br": "Kastell-Bourc'h",
+    "place": "village",
+    "population": "6125",
+    "ref:FR:SIREN": "213500689",
+    "ref:INSEE": "35068",
+    "wikipedia": "fr:Châteaubourg (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 26696282,
+  "lat": 48.5150492,
+  "lon": -1.8995937,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35540",
+    "name": "Miniac-Morvan",
+    "name:br": "Minieg-Morvan",
+    "place": "village",
+    "population": "3705",
+    "ref:FR:SIREN": "213501794",
+    "ref:INSEE": "35179",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696362,
+  "lat": 48.0237611,
+  "lon": -1.7488876,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35170",
+    "name": "Bruz",
+    "name:br": "Bruz",
+    "name:fr": "Bruz",
+    "place": "town",
+    "population": "16465",
+    "ref:FR:SIREN": "213500473",
+    "ref:INSEE": "35047",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696486,
+  "lat": 48.1894709,
+  "lon": -2.1911338,
+  "tags": {
+    "addr:postcode": "35290",
+    "name": "Saint-Méen-le-Grand",
+    "name:br": "Sant-Meven",
+    "place": "village",
+    "population": "4426",
+    "ref:FR:SIREN": "213502974",
+    "ref:INSEE": "35297",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696525,
+  "lat": 48.0733304,
+  "lon": -1.8485204,
+  "tags": {
+    "addr:postcode": "35310",
+    "name": "Mordelles",
+    "name:br": "Morzhell",
+    "name:fr": "Mordelles",
+    "place": "village",
+    "population": "7180",
+    "ref:FR:SIREN": "213501968",
+    "ref:INSEE": "35196",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696726,
+  "lat": 48.0715326,
+  "lon": -1.7171453,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35136",
+    "name": "Saint-Jacques-de-la-Lande",
+    "name:br": "Sant-Jakez-al-Lann",
+    "name:uk": "Сен-Жак-де-ла-Ланд",
+    "place": "town",
+    "population": "10497",
+    "ref:FR:SIREN": "213502818",
+    "ref:INSEE": "35281",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Jacques-de-la-Lande"
+  }
+},
+{
+  "type": "node",
+  "id": 26696755,
+  "lat": 48.0432406,
+  "lon": -1.7082369,
+  "tags": {
+    "addr:postcode": "35131",
+    "name": "Chartres-de-Bretagne",
+    "name:br": "Karnod",
+    "place": "village",
+    "population": "7260",
+    "ref:FR:SIREN": "213500663",
+    "ref:INSEE": "35066",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696835,
+  "lat": 48.1780290,
+  "lon": -1.7341152,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35520",
+    "name": "La Chapelle-des-Fougeretz",
+    "name:br": "Chapel-Felgeriz",
+    "place": "village",
+    "population": "3944",
+    "ref:FR:SIREN": "213500598",
+    "ref:INSEE": "35059",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26696880,
+  "lat": 48.0131094,
+  "lon": -1.7023101,
+  "tags": {
+    "addr:postcode": "35131",
+    "name": "Pont-Péan",
+    "name:br": "Pont-Pagan",
+    "place": "village",
+    "population": "3705",
+    "ref:FR:SIREN": "213503634",
+    "ref:INSEE": "35363"
+  }
+},
+{
+  "type": "node",
+  "id": 26697188,
+  "lat": 48.4104391,
+  "lon": -1.7500622,
+  "tags": {
+    "addr:postcode": "35270",
+    "name": "Combourg",
+    "name:br": "Komborn",
+    "name:fr": "Combourg",
+    "place": "village",
+    "population": "5637",
+    "ref:FR:SIREN": "213500853",
+    "ref:INSEE": "35085",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697410,
+  "lat": 47.8311303,
+  "lon": -1.3186222,
+  "tags": {
+    "addr:postcode": "35640",
+    "name": "Martigné-Ferchaud",
+    "name:br": "Marzhinieg-Houarnruz",
+    "place": "village",
+    "population": "2663",
+    "ref:FR:SIREN": "213501679",
+    "ref:INSEE": "35167",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697449,
+  "lat": 47.9775099,
+  "lon": -1.5874103,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35150",
+    "name": "Corps-Nuds",
+    "name:br": "Kornuz",
+    "place": "village",
+    "population": "2941",
+    "ref:FR:SIREN": "213500887",
+    "ref:INSEE": "35088",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697459,
+  "lat": 48.1465726,
+  "lon": -1.7728997,
+  "tags": {
+    "addr:postcode": "35740",
+    "name": "Pacé",
+    "name:br": "Pazieg",
+    "place": "town",
+    "population": "10488",
+    "ref:FR:SIREN": "213502107",
+    "ref:INSEE": "35210",
+    "source:population": "INSEE 2014"
+  }
+},
+{
+  "type": "node",
+  "id": 26697472,
+  "lat": 47.8252314,
+  "lon": -1.8403327,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35480",
+    "name": "Guipry",
+    "name:br": "Gwipri",
+    "place": "village",
+    "population": "3646",
+    "ref:FR:SIREN": "213501299",
+    "ref:INSEE": "35129",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697495,
+  "lat": 48.6380887,
+  "lon": -1.9051339,
+  "tags": {
+    "addr:postcode": "35350",
+    "name": "Saint-Méloir-des-Ondes",
+    "name:br": "Sant-Meleg",
+    "place": "village",
+    "population": "3732",
+    "ref:FR:SIREN": "213502990",
+    "ref:INSEE": "35299",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697508,
+  "lat": 48.5815000,
+  "lon": -2.0591200,
+  "tags": {
+    "addr:postcode": "35730",
+    "name": "Pleurtuit",
+    "name:br": "Pleurestud",
+    "place": "village",
+    "population": "5962",
+    "ref:FR:SIREN": "213502289",
+    "ref:INSEE": "35228",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697561,
+  "lat": 48.4815182,
+  "lon": -1.1231428,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35420",
+    "name": "Louvigné-du-Désert",
+    "name:br": "Louvigneg-an-Dezerzh",
+    "name:fr": "Louvigné-du-Désert",
+    "place": "village",
+    "population": "3758",
+    "ref:FR:SIREN": "213501620",
+    "ref:INSEE": "35162",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697601,
+  "lat": 48.0023864,
+  "lon": -2.1003629,
+  "tags": {
+    "addr:postcode": "35380",
+    "name": "Plélan-le-Grand",
+    "name:br": "Plelann-Veur",
+    "name:fr": "Plélan-le-Grand",
+    "place": "village",
+    "population": "3566",
+    "ref:FR:SIREN": "213502230",
+    "ref:INSEE": "35223",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697652,
+  "lat": 48.0031858,
+  "lon": -1.6679484,
+  "tags": {
+    "addr:postcode": "35230",
+    "name": "Orgères",
+    "name:br": "An Heizeg",
+    "place": "village",
+    "population": "3905",
+    "ref:FR:SIREN": "213502081",
+    "ref:INSEE": "35208",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697769,
+  "lat": 47.9426332,
+  "lon": -1.2314540,
+  "tags": {
+    "addr:postcode": "35130",
+    "name": "La Guerche-de-Bretagne",
+    "name:br": "Gwerc'h-Breizh",
+    "name:fr": "La Guerche-de-Bretagne",
+    "place": "village",
+    "population": "4255",
+    "ref:FR:SIREN": "213501257",
+    "ref:INSEE": "35125",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697785,
+  "lat": 47.8414377,
+  "lon": -1.6852229,
+  "tags": {
+    "addr:postcode": "35470",
+    "name": "Bain-de-Bretagne",
+    "name:br": "Baen-Veur",
+    "name:fr": "Bain-de-Bretagne",
+    "name:uk": "Бен-де-Бретань",
+    "place": "village",
+    "population": "7339",
+    "ref:FR:SIREN": "213500127",
+    "ref:INSEE": "35012",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Bain-de-Bretagne"
+  }
+},
+{
+  "type": "node",
+  "id": 26697884,
+  "lat": 47.9128732,
+  "lon": -1.3818706,
+  "tags": {
+    "addr:postcode": "35240",
+    "name": "Retiers",
+    "name:br": "Rester",
+    "place": "village",
+    "population": "3775",
+    "ref:FR:SIREN": "213502396",
+    "ref:INSEE": "35239",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697911,
+  "lat": 48.1180947,
+  "lon": -1.7511770,
+  "tags": {
+    "addr:postcode": "35132",
+    "name": "Vezin-le-Coquet",
+    "name:br": "Gwezin",
+    "place": "village",
+    "population": "4382",
+    "ref:FR:SIREN": "213503535",
+    "ref:INSEE": "35353",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26697996,
+  "lat": 48.1524129,
+  "lon": -1.6853980,
+  "tags": {
+    "addr:postcode": "35760",
+    "name": "Saint-Grégoire",
+    "name:br": "Sant-Gregor",
+    "place": "village",
+    "population": "8549",
+    "population:date": "2013",
+    "ref:FR:SIREN": "213502784",
+    "ref:INSEE": "35278",
+    "source:population": "INSEE"
+  }
+},
+{
+  "type": "node",
+  "id": 26698015,
+  "lat": 48.1334094,
+  "lon": -1.5338474,
+  "tags": {
+    "OGM": "non",
+    "name": "Acigné",
+    "name:br": "Egineg",
+    "place": "village",
+    "population": "6166",
+    "postal_code": "35690",
+    "ref:FR:SIREN": "213500010",
+    "ref:INSEE": "35001",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Acigné"
+  }
+},
+{
+  "type": "node",
+  "id": 26698192,
+  "lat": 48.1998838,
+  "lon": -2.0462319,
+  "tags": {
+    "addr:postcode": "35360",
+    "name": "Montauban-de-Bretagne",
+    "name:br": "Menezalban",
+    "name:fr": "Montauban-de-Bretagne",
+    "place": "village",
+    "population": "4739",
+    "ref:FR:SIREN": "213501844",
+    "ref:INSEE": "35184",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698229,
+  "lat": 48.0513567,
+  "lon": -1.8676860,
+  "tags": {
+    "addr:postcode": "35310",
+    "name": "Bréal-sous-Montfort",
+    "name:br": "Breal-Moñforzh",
+    "name:fr": "Bréal-sous-Montfort",
+    "place": "village",
+    "population": "5055",
+    "ref:FR:SIREN": "213500374",
+    "ref:INSEE": "35037",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698291,
+  "lat": 48.2153539,
+  "lon": -1.8924500,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35850",
+    "name": "Romillé",
+    "name:br": "Rovelieg",
+    "place": "village",
+    "population": "3632",
+    "ref:FR:SIREN": "213502453",
+    "ref:INSEE": "35245",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698388,
+  "lat": 48.0054828,
+  "lon": -1.8476016,
+  "tags": {
+    "addr:postcode": "35580",
+    "name": "Goven",
+    "name:br": "Goven",
+    "place": "village",
+    "population": "4132",
+    "ref:FR:SIREN": "213501232",
+    "ref:INSEE": "35123",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698418,
+  "lat": 47.9556915,
+  "lon": -1.4953660,
+  "tags": {
+    "addr:postcode": "35150",
+    "name": "Janzé",
+    "name:br": "Gentieg",
+    "name:fr": "Janzé",
+    "place": "village",
+    "population": "8142",
+    "ref:FR:SIREN": "213501364",
+    "ref:INSEE": "35136",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698421,
+  "lat": 48.5489772,
+  "lon": -1.7521005,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "Dol-de-Bretagne",
+    "name:br": "Dol",
+    "name:fr": "Dol-de-Bretagne",
+    "place": "village",
+    "population": "5335",
+    "ref:FR:SIREN": "213500952",
+    "ref:INSEE": "35095",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698426,
+  "lat": 47.7153000,
+  "lon": -2.0725800,
+  "tags": {
+    "addr:postcode": "35600",
+    "name": "Bains-sur-Oust",
+    "name:br": "Baen-Ballon",
+    "place": "village",
+    "population": "3406",
+    "ref:FR:SIREN": "213500135",
+    "ref:INSEE": "35013",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26698441,
+  "lat": 47.8249568,
+  "lon": -1.8054673,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35480",
+    "name": "Messac",
+    "name:br": "Mezeg",
+    "place": "village",
+    "population": "2778",
+    "ref:FR:SIREN": "213501760",
+    "ref:INSEE": "35176",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 26818916,
+  "lat": 48.1925422,
+  "lon": -1.3694811,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35450",
+    "name": "Dourdain",
+    "name:br": "Dourdan",
+    "place": "village",
+    "population": "1046",
+    "ref:FR:SIREN": "213501018",
+    "ref:INSEE": "35101",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Dourdain"
+  }
+},
+{
+  "type": "node",
+  "id": 26818953,
+  "lat": 48.1772441,
+  "lon": -1.3018405,
+  "tags": {
+    "PCET_charte": "non",
+    "addr:postcode": "35450",
+    "name": "Val-d'Izé",
+    "name:br": "Nant-Izeg",
+    "place": "village",
+    "population": "2493",
+    "ref:FR:SIREN": "213503477",
+    "ref:INSEE": "35347",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Val-d'Izé"
+  }
+},
+{
+  "type": "node",
+  "id": 27256392,
+  "lat": 48.0950608,
+  "lon": -1.3711267,
+  "tags": {
+    "PCET_charte": "non",
+    "addr:postcode": "35220",
+    "name": "Saint-Didier",
+    "place": "village",
+    "population": "1792",
+    "ref:INSEE": "35264",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Didier (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 31423115,
+  "lat": 47.8836200,
+  "lon": -1.5449676,
+  "tags": {
+    "addr:postcode": "35320",
+    "name": "Tresbœuf",
+    "name:br": "Trevo",
+    "place": "village",
+    "population": "1198",
+    "ref:FR:SIREN": "213503436",
+    "ref:INSEE": "35343",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 33835941,
+  "lat": 48.6032453,
+  "lon": -1.7748916,
+  "tags": {
+    "addr:postcode": "35960",
+    "name": "Le Vivier-sur-Mer",
+    "name:br": "Gwiver",
+    "place": "village",
+    "population": "1023",
+    "ref:FR:SIREN": "213503618",
+    "ref:INSEE": "35361"
+  }
+},
+{
+  "type": "node",
+  "id": 34402463,
+  "lat": 48.0181129,
+  "lon": -1.6513450,
+  "tags": {
+    "addr:postcode": "35230",
+    "name": "Saint-Erblon",
+    "name:br": "Sant-Ervlon-an-Dezerzh",
+    "place": "village",
+    "population": "2491",
+    "ref:FR:SIREN": "213502669",
+    "ref:INSEE": "35266"
+  }
+},
+{
+  "type": "node",
+  "id": 36674955,
+  "lat": 48.2192441,
+  "lon": -1.5791541,
+  "tags": {
+    "addr:postcode": "35250",
+    "name": "Saint-Sulpice-la-Forêt",
+    "name:br": "Sant-Suleg-ar-C'hoad",
+    "place": "village",
+    "population": "1423",
+    "ref:FR:SIREN": "213503154",
+    "ref:INSEE": "35315",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 89094924,
+  "lat": 48.5700826,
+  "lon": -1.7683797,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "Mont-Dol",
+    "name:br": "Menez-Dol",
+    "place": "village",
+    "population": "1248",
+    "ref:FR:SIREN": "213501869",
+    "ref:INSEE": "35186",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 89094986,
+  "lat": 48.6060853,
+  "lon": -1.7110157,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "Cherrueix",
+    "name:br": "Kerruer",
+    "place": "village",
+    "population": "1150",
+    "ref:FR:SIREN": "213500788",
+    "ref:INSEE": "35078",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 104352967,
+  "lat": 48.6204307,
+  "lon": -1.8531685,
+  "tags": {
+    "addr:postcode": "35114",
+    "name": "Saint-Benoît-des-Ondes",
+    "name:br": "Lanwezoù",
+    "place": "village",
+    "population": "1077",
+    "ref:FR:SIREN": "213502552",
+    "ref:INSEE": "35255",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 219062566,
+  "lat": 48.2490799,
+  "lon": -1.6592054,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35250",
+    "name": "Saint-Germain-sur-Ille",
+    "name:br": "Sant-Jermen-an-Il",
+    "name:uk": "Сен-Жермен-сюр-Іль",
+    "place": "village",
+    "population": "892",
+    "ref:FR:SIREN": "213502743",
+    "ref:INSEE": "35274",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Germain-sur-Ille"
+  }
+},
+{
+  "type": "node",
+  "id": 225586933,
+  "lat": 48.3290212,
+  "lon": -1.6415472,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35440",
+    "name": "Feins",
+    "name:br": "Finioù",
+    "place": "village",
+    "population": "809",
+    "ref:FR:SIREN": "213501109",
+    "ref:INSEE": "35110",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 227084469,
+  "lat": 48.2980345,
+  "lon": -1.5188078,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35490",
+    "name": "Gahard",
+    "name:br": "Gwaharzh",
+    "place": "village",
+    "population": "1268",
+    "ref:FR:SIREN": "213501182",
+    "ref:INSEE": "35118",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 227084478,
+  "lat": 48.3425220,
+  "lon": -1.4882078,
+  "tags": {
+    "addr:postcode": "35490",
+    "name": "Vieux-Vy-sur-Couesnon",
+    "name:br": "Henwig-ar-C'houenon",
+    "place": "village",
+    "population": "1104",
+    "ref:FR:SIREN": "213503550",
+    "ref:INSEE": "35355",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 227098130,
+  "lat": 48.3064590,
+  "lon": -1.6710597,
+  "tags": {
+    "addr:postcode": "35440",
+    "name": "Montreuil-sur-Ille",
+    "name:br": "Mousterel-an-Il",
+    "place": "village",
+    "population": "2114",
+    "ref:FR:SIREN": "213501950",
+    "ref:INSEE": "35195",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 227098134,
+  "lat": 48.2941715,
+  "lon": -1.6345141,
+  "tags": {
+    "addr:postcode": "35250",
+    "name": "Aubigné",
+    "name:br": "Elvinieg",
+    "place": "village",
+    "population": "428",
+    "ref:FR:SIREN": "213500077",
+    "ref:INSEE": "35007",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 227098138,
+  "lat": 48.2323558,
+  "lon": -1.6106784,
+  "tags": {
+    "addr:postcode": "35250",
+    "name": "Mouazé",
+    "name:br": "Moezeg",
+    "place": "village",
+    "population": "1053",
+    "ref:FR:SIREN": "213501976",
+    "ref:INSEE": "35197",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 228486015,
+  "lat": 48.2561002,
+  "lon": -1.5144680,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35340",
+    "name": "Ercé-près-Liffré",
+    "name:br": "Herzieg-Liverieg",
+    "place": "village",
+    "population": "1801",
+    "ref:FR:SIREN": "213501075",
+    "ref:INSEE": "35107",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Ercé-près-Liffré"
+  }
+},
+{
+  "type": "node",
+  "id": 241776905,
+  "lat": 48.5882274,
+  "lon": -1.6321115,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "Saint-Marcan",
+    "name:br": "Sant-Marc'han",
+    "place": "village",
+    "population": "467",
+    "ref:FR:SIREN": "213502917",
+    "ref:INSEE": "35291",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 243190521,
+  "lat": 48.2730464,
+  "lon": -1.6601833,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35250",
+    "name": "Saint-Médard-sur-Ille",
+    "name:br": "Sant-Marzh-an-Il",
+    "place": "village",
+    "population": "1319",
+    "ref:FR:SIREN": "213502966",
+    "ref:INSEE": "35296",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 243749356,
+  "lat": 48.2459917,
+  "lon": -1.4626276,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Gosné",
+    "name:br": "Goneg",
+    "place": "village",
+    "population": "1728",
+    "ref:FR:SIREN": "213501216",
+    "ref:INSEE": "35121",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 250075049,
+  "lat": 48.4657176,
+  "lon": -1.2621380,
+  "tags": {
+    "name": "Poilley",
+    "name:br": "Polieg",
+    "place": "village",
+    "ref:INSEE": "35230",
+    "wikipedia": "fr:Poilley (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 255388404,
+  "lat": 48.2959226,
+  "lon": -1.8022917,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35630",
+    "name": "Hédé-Bazouges",
+    "name:br": "Hazhoù-Bazeleg",
+    "old_name": "Hédé",
+    "place": "village",
+    "population": "1940",
+    "ref:FR:SIREN": "213501307",
+    "ref:INSEE": "35130",
+    "source:name": "Décret n° 2011-311 du 22 mars 2011 portant changement du nom de communes",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Hédé-Bazouges"
+  }
+},
+{
+  "type": "node",
+  "id": 266859465,
+  "lat": 48.0061864,
+  "lon": -1.4764193,
+  "tags": {
+    "addr:postcode": "35150",
+    "name": "Amanlis",
+    "name:br": "Amanliz",
+    "place": "village",
+    "population": "1602",
+    "ref:FR:SIREN": "213500028",
+    "ref:INSEE": "35002",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 270543184,
+  "lat": 48.0066077,
+  "lon": -1.8460470,
+  "tags": {
+    "amenity": "townhall",
+    "contact:phone": "+33 2 99 42 03 03",
+    "name": "Mairie de Goven",
+    "ref:INSEE": "35123"
+  }
+},
+{
+  "type": "node",
+  "id": 271244634,
+  "lat": 48.0438948,
+  "lon": -1.4639570,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35410",
+    "name": "Saint-Aubin-du-Pavail",
+    "place": "village",
+    "population": "729",
+    "ref:INSEE": "35254",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 271437497,
+  "lat": 48.1102058,
+  "lon": -1.4817649,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35530",
+    "name": "Brécé",
+    "name:br": "Brec'heg",
+    "place": "village",
+    "population": "1929",
+    "ref:FR:SIREN": "213500390",
+    "ref:INSEE": "35039",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Brecé"
+  }
+},
+{
+  "type": "node",
+  "id": 273477574,
+  "lat": 48.2487420,
+  "lon": -1.7840405,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35630",
+    "name": "Vignoc",
+    "name:br": "Gwinieg",
+    "place": "village",
+    "population": "1798",
+    "ref:FR:SIREN": "213503568",
+    "ref:INSEE": "35356",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 276826372,
+  "lat": 48.3095996,
+  "lon": -1.9392225,
+  "tags": {
+    "addr:postcode": "35190",
+    "name": "Longaulnay",
+    "name:br": "Hirwerneg",
+    "place": "village",
+    "population": "614",
+    "ref:FR:SIREN": "213501562",
+    "ref:INSEE": "35156",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 276826377,
+  "lat": 48.2949905,
+  "lon": -1.9440559,
+  "tags": {
+    "addr:postcode": "35190",
+    "name": "Bécherel",
+    "name:br": "Begerel",
+    "place": "village",
+    "population": "758",
+    "ref:FR:SIREN": "213500226",
+    "ref:INSEE": "35022",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 279150255,
+  "lat": 48.1411828,
+  "lon": -1.3407965,
+  "tags": {
+    "PCET_charte": "non",
+    "addr:postcode": "35220",
+    "name": "Marpiré",
+    "place": "village",
+    "population": "1064",
+    "ref:INSEE": "35166",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Marpiré"
+  }
+},
+{
+  "type": "node",
+  "id": 279150256,
+  "lat": 48.1476090,
+  "lon": -1.3115291,
+  "tags": {
+    "addr:postcode": "35500",
+    "name": "Champeaux",
+    "place": "village",
+    "population": "473",
+    "ref:INSEE": "35052",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Champeaux (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 279857817,
+  "lat": 48.3281078,
+  "lon": -1.4256954,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Saint-Ouen-des-Alleux",
+    "name:uk": "Сент-Уан-дез-Алле",
+    "place": "village",
+    "population": "1312",
+    "ref:INSEE": "35304",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Ouen-des-Alleux"
+  }
+},
+{
+  "type": "node",
+  "id": 279858279,
+  "lat": 48.3033668,
+  "lon": -1.3643265,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Saint-Marc-sur-Couesnon",
+    "name:br": "Sant-Marzh-ar-C'houenon",
+    "place": "village",
+    "population": "517",
+    "ref:FR:SIREN": "213502933",
+    "ref:INSEE": "35293",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 282517127,
+  "lat": 48.6061560,
+  "lon": -1.8019488,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35120",
+    "name": "Hirel",
+    "name:br": "Hirel",
+    "place": "village",
+    "population": "1373",
+    "ref:FR:SIREN": "213501323",
+    "ref:INSEE": "35132",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 289154828,
+  "lat": 47.9298273,
+  "lon": -1.7388742,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35890",
+    "name": "Bourg-des-Comptes",
+    "name:br": "Gwikomm",
+    "place": "village",
+    "population": "2848",
+    "ref:FR:SIREN": "213500333",
+    "ref:INSEE": "35033",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 289155618,
+  "lat": 47.8947671,
+  "lon": -1.7496755,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35470",
+    "name": "Pléchâtel",
+    "name:br": "Plegastell",
+    "place": "village",
+    "population": "2735",
+    "ref:FR:SIREN": "213502214",
+    "ref:INSEE": "35221",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 289929479,
+  "lat": 48.3759250,
+  "lon": -1.4972200,
+  "tags": {
+    "addr:postcode": "35490",
+    "name": "Romazy",
+    "name:br": "Rovazil",
+    "place": "village",
+    "population": "276",
+    "ref:FR:SIREN": "213502446",
+    "ref:INSEE": "35244",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 297737640,
+  "lat": 48.1321352,
+  "lon": -2.2228673,
+  "tags": {
+    "addr:postcode": "35290",
+    "name": "Gaël",
+    "name:br": "Gwazel",
+    "place": "village",
+    "population": "1584",
+    "ref:FR:SIREN": "213501174",
+    "ref:INSEE": "35117",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 297738120,
+  "lat": 48.0193594,
+  "lon": -2.1735324,
+  "tags": {
+    "addr:postcode": "35380",
+    "name": "Paimpont",
+    "name:br": "Pempont",
+    "name:fr": "Paimpont",
+    "place": "village",
+    "population": "1631",
+    "ref:FR:SIREN": "213502115",
+    "ref:INSEE": "35211",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 317661278,
+  "lat": 47.9792910,
+  "lon": -1.8699811,
+  "tags": {
+    "addr:postcode": "35580",
+    "name": "Lassy",
+    "name:br": "Lazig",
+    "place": "village",
+    "population": "1380",
+    "ref:FR:SIREN": "213501497",
+    "ref:INSEE": "35149",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 355968279,
+  "lat": 48.4226706,
+  "lon": -1.4756765,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35460",
+    "name": "Tremblay",
+    "name:br": "Kreneg",
+    "place": "village",
+    "population": "1508",
+    "ref:FR:SIREN": "213503410",
+    "ref:INSEE": "35341",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 356260620,
+  "lat": 48.3571687,
+  "lon": -1.7155792,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35440",
+    "name": "Dingé",
+    "name:br": "Dingad",
+    "place": "village",
+    "population": "1580",
+    "ref:FR:SIREN": "213500945",
+    "ref:INSEE": "35094",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 356261635,
+  "lat": 48.2985520,
+  "lon": -1.7206888,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35440",
+    "name": "Guipel",
+    "name:br": "Gwipedel",
+    "place": "village",
+    "population": "1579",
+    "ref:FR:SIREN": "213501281",
+    "ref:INSEE": "35128",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 356266690,
+  "lat": 48.4253250,
+  "lon": -1.7036514,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35270",
+    "name": "Trémeheuc",
+    "name:br": "Tremaeg",
+    "place": "village",
+    "population": "366",
+    "ref:FR:SIREN": "213503428",
+    "ref:INSEE": "35342",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 356267444,
+  "lat": 48.4502079,
+  "lon": -1.6661021,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35270",
+    "name": "Cuguen",
+    "name:br": "Kugenn",
+    "place": "village",
+    "population": "784",
+    "ref:FR:SIREN": "213500929",
+    "ref:INSEE": "35092",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 356268107,
+  "lat": 48.3963826,
+  "lon": -1.6528397,
+  "tags": {
+    "addr:postcode": "35270",
+    "name": "Saint-Léger-des-Prés",
+    "name:br": "Sant-Lezer-ar-Pradeier",
+    "place": "village",
+    "population": "232",
+    "ref:FR:SIREN": "213502867",
+    "ref:INSEE": "35286",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 356268169,
+  "lat": 48.3860094,
+  "lon": -1.6073494,
+  "tags": {
+    "addr:postcode": "35560",
+    "name": "Marcillé-Raoul",
+    "name:br": "Marc'helleg-Raoul",
+    "place": "village",
+    "population": "833",
+    "ref:FR:SIREN": "213501646",
+    "ref:INSEE": "35164",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 371625288,
+  "lat": 47.8764685,
+  "lon": -2.0842014,
+  "tags": {
+    "addr:city": "Comblessac",
+    "addr:postcode": "35330",
+    "ele": "60 mètres",
+    "name": "Comblessac",
+    "name:br": "Kamlec'hieg",
+    "place": "village",
+    "population": "697",
+    "ref:FR:SIREN": "213500846",
+    "ref:INSEE": "35084",
+    "source:population": "INSEE 2013",
+    "website": "http://www.comblessac.fr/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 390469961,
+  "lat": 48.0594198,
+  "lon": -1.1903214,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35370",
+    "name": "Étrelles",
+    "place": "village",
+    "population": "2559",
+    "ref:INSEE": "35109",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Étrelles"
+  }
+},
+{
+  "type": "node",
+  "id": 415555858,
+  "lat": 48.5098113,
+  "lon": -1.2410172,
+  "tags": {
+    "OGM": "non",
+    "name": "Saint-Georges-de-Reintembault",
+    "name:br": "Sant-Jord-Restembaod",
+    "place": "village",
+    "ref:INSEE": "35271",
+    "wikipedia": "fr:Saint-Georges-de-Reintembault"
+  }
+},
+{
+  "type": "node",
+  "id": 417292002,
+  "lat": 48.4595941,
+  "lon": -1.3648478,
+  "tags": {
+    "addr:postcode": "35460",
+    "name": "Coglès",
+    "name:br": "Gougleiz",
+    "place": "village",
+    "population": "650",
+    "ref:INSEE": "35083",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 428580958,
+  "lat": 48.5791515,
+  "lon": -2.0097487,
+  "tags": {
+    "addr:postcode": "35870",
+    "name": "Le Minihic-sur-Rance",
+    "name:br": "Minic'hi-Poudour",
+    "place": "village",
+    "population": "1427",
+    "ref:FR:SIREN": "213501810",
+    "ref:INSEE": "35181",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 428580960,
+  "lat": 48.6072378,
+  "lon": -2.0414039,
+  "tags": {
+    "addr:postcode": "35780",
+    "name": "La Richardais",
+    "name:br": "Kerricharzh-an-Arvor",
+    "place": "village",
+    "population": "2393",
+    "ref:FR:SIREN": "213502412",
+    "ref:INSEE": "35241",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 430170087,
+  "lat": 48.5873125,
+  "lon": -1.6554080,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "Saint-Broladre",
+    "name:br": "Sant-Brewalaer",
+    "place": "village",
+    "population": "1140",
+    "ref:FR:SIREN": "213502594",
+    "ref:INSEE": "35259",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 436125138,
+  "lat": 48.4158632,
+  "lon": -1.2537728,
+  "tags": {
+    "addr:postcode": "35133",
+    "name": "Le Châtellier",
+    "place": "village",
+    "population": "377",
+    "ref:INSEE": "35071",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 442708271,
+  "lat": 48.6183398,
+  "lon": -2.1327847,
+  "tags": {
+    "addr:postcode": "35800",
+    "name": "Saint-Briac-sur-Mer",
+    "name:br": "Sant-Briag",
+    "place": "village",
+    "population": "1968",
+    "ref:FR:SIREN": "213502560",
+    "ref:INSEE": "35256",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 456443904,
+  "lat": 48.1133696,
+  "lon": -2.0656230,
+  "tags": {
+    "addr:postcode": "35750",
+    "name": "Saint-Gonlay",
+    "name:br": "Sant-Gonlei",
+    "place": "village",
+    "population": "349",
+    "ref:FR:SIREN": "213502776",
+    "ref:INSEE": "35277",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 456443905,
+  "lat": 48.0933722,
+  "lon": -2.0976082,
+  "tags": {
+    "addr:postcode": "35750",
+    "name": "Saint-Malon-sur-Mel",
+    "name:br": "Sant-Malon",
+    "place": "village",
+    "population": "589",
+    "ref:FR:SIREN": "213502909",
+    "ref:INSEE": "35290",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 470366676,
+  "lat": 48.0706593,
+  "lon": -1.3918429,
+  "tags": {
+    "addr:postcode": "35113",
+    "name": "Domagné",
+    "place": "village",
+    "population": "2217",
+    "ref:INSEE": "35096",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Domagné"
+  }
+},
+{
+  "type": "node",
+  "id": 470366686,
+  "lat": 48.5124650,
+  "lon": -1.6595200,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "La Boussac",
+    "name:br": "Labouseg",
+    "place": "village",
+    "population": "1169",
+    "ref:INSEE": "35034",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 470366689,
+  "lat": 47.8699764,
+  "lon": -1.5980251,
+  "tags": {
+    "addr:postcode": "35320",
+    "name": "La Bosse-de-Bretagne",
+    "name:br": "Bosenn",
+    "place": "village",
+    "population": "607",
+    "ref:FR:SIREN": "213500309",
+    "ref:INSEE": "35030",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 470366695,
+  "lat": 48.2711250,
+  "lon": -1.8544940,
+  "tags": {
+    "addr:postcode": "35630",
+    "name": "La Chapelle-Chaussée",
+    "name:br": "Chapel-ar-Galc'hed",
+    "place": "village",
+    "population": "1146",
+    "ref:FR:SIREN": "213500580",
+    "ref:INSEE": "35058",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 470366748,
+  "lat": 48.2967369,
+  "lon": -1.4307741,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Mézières-sur-Couesnon",
+    "name:br": "Magoerioù-ar-C'houenon",
+    "place": "village",
+    "ref:INSEE": "35178",
+    "wikipedia": "fr:Mézières-sur-Couesnon"
+  }
+},
+{
+  "type": "node",
+  "id": 470366774,
+  "lat": 48.3430340,
+  "lon": -1.4465210,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Saint-Christophe-de-Valains",
+    "name:br": "Sant-Kristol-Gwalen",
+    "place": "village",
+    "ref:INSEE": "35261",
+    "wikipedia": "fr:Saint-Christophe-de-Valains"
+  }
+},
+{
+  "type": "node",
+  "id": 470366789,
+  "lat": 48.3516450,
+  "lon": -1.3570910,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Saint-Hilaire-des-Landes",
+    "name:br": "Sant-Eler-al-Lann",
+    "place": "village",
+    "population": "993",
+    "ref:INSEE": "35280",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Hilaire-des-Landes"
+  }
+},
+{
+  "type": "node",
+  "id": 470366796,
+  "lat": 48.1730402,
+  "lon": -2.0288616,
+  "tags": {
+    "addr:postcode": "35360",
+    "name": "Saint-Uniac",
+    "name:br": "Sant-Tewiniav",
+    "place": "village",
+    "population": "509",
+    "ref:INSEE": "35320",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 470366820,
+  "lat": 48.4609708,
+  "lon": -1.2210889,
+  "tags": {
+    "addr:postcode": "35420",
+    "name": "Villamée",
+    "name:br": "Gwilavez",
+    "place": "village",
+    "ref:INSEE": "35357",
+    "wikipedia": "fr:Villamée"
+  }
+},
+{
+  "type": "node",
+  "id": 486340993,
+  "lat": 48.0803162,
+  "lon": -1.7140976,
+  "tags": {
+    "addr:city": "Saint Jacques de la Lande",
+    "addr:housenumber": "10",
+    "addr:postcode": "35136",
+    "addr:street": "Rue François Mitterrand",
+    "amenity": "townhall",
+    "contact:phone": "+33 2 99 29 75 30",
+    "name": "EPI Condorcet",
+    "ref:INSEE": "35281",
+    "website": "http://www.st-jacques.fr",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 506901361,
+  "lat": 48.3646155,
+  "lon": -1.4092856,
+  "tags": {
+    "addr:postcode": "35460",
+    "name": "Saint-Marc-le-Blanc",
+    "place": "village",
+    "population": "1288",
+    "ref:INSEE": "35292",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 558837367,
+  "lat": 47.8302884,
+  "lon": -1.5607151,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35620",
+    "name": "Ercé-en-Lamée",
+    "name:br": "Herzieg-Mez",
+    "place": "village",
+    "population": "1437",
+    "ref:FR:SIREN": "213501067",
+    "ref:INSEE": "35106",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 639600229,
+  "lat": 48.2913925,
+  "lon": -1.8251627,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35630",
+    "name": "Saint-Symphorien",
+    "name:br": "Sant-Sinforian",
+    "name:uk": "Сен-Семфор'ян",
+    "place": "village",
+    "population": "560",
+    "ref:FR:SIREN": "200011062",
+    "ref:INSEE": "35317",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Symphorien (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 656295073,
+  "lat": 48.5881364,
+  "lon": -1.9243628,
+  "tags": {
+    "addr:postcode": "35430",
+    "name": "Saint-Père",
+    "name:br": "Sant-Pêr-Poualed",
+    "old_name": "Saint-Père-Marc-en-Poulet",
+    "place": "village",
+    "population": "2300",
+    "ref:FR:SIREN": "213503063",
+    "ref:INSEE": "35306"
+  }
+},
+{
+  "type": "node",
+  "id": 709015525,
+  "lat": 48.5699597,
+  "lon": -1.9733807,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35430",
+    "name": "Saint-Suliac",
+    "name:br": "Sant-Suliav",
+    "name:uk": "Сен-Сюльяк",
+    "place": "village",
+    "population": "936",
+    "ref:FR:SIREN": "213503147",
+    "ref:INSEE": "35314",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "wikipedia": "fr:Saint-Suliac"
+  }
+},
+{
+  "type": "node",
+  "id": 733990756,
+  "lat": 47.7204660,
+  "lon": -1.8499601,
+  "tags": {
+    "addr:postcode": "35660",
+    "name": "Langon",
+    "name:br": "Landegon",
+    "name:uk": "Лангон",
+    "place": "village",
+    "population": "1443",
+    "ref:FR:SIREN": "213501455",
+    "ref:INSEE": "35145",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Langon (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 733990796,
+  "lat": 47.7550260,
+  "lon": -1.8845537,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35550",
+    "name": "Saint-Ganton",
+    "name:br": "Sant-Weganton",
+    "place": "village",
+    "population": "418",
+    "ref:FR:SIREN": "213502685",
+    "ref:INSEE": "35268",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Ganton"
+  }
+},
+{
+  "type": "node",
+  "id": 740704853,
+  "lat": 47.8830309,
+  "lon": -1.4410994,
+  "tags": {
+    "addr:postcode": "35134",
+    "name": "Coësmes",
+    "place": "village",
+    "population": "1391",
+    "ref:INSEE": "35082",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 795821626,
+  "lat": 47.8513715,
+  "lon": -1.9430551,
+  "tags": {
+    "addr:postcode": "35550",
+    "name": "Lieuron",
+    "name:br": "Luzron",
+    "place": "village",
+    "population": "737",
+    "ref:FR:SIREN": "213501513",
+    "ref:INSEE": "35151",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 849511790,
+  "lat": 48.1109220,
+  "lon": -2.1263482,
+  "tags": {
+    "addr:postcode": "35750",
+    "name": "Bléruais",
+    "name:br": "Blerwaz",
+    "place": "village",
+    "population": "98",
+    "ref:FR:SIREN": "213500267",
+    "ref:INSEE": "35026",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 872331607,
+  "lat": 47.8868719,
+  "lon": -1.4552194,
+  "tags": {
+    "addr:postcode": "35134",
+    "name": "Sainte-Colombe",
+    "place": "village",
+    "population": "307",
+    "ref:INSEE": "35262",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 875685173,
+  "lat": 48.3129927,
+  "lon": -1.3076440,
+  "tags": {
+    "name": "La Chapelle-Saint-Aubert",
+    "name:br": "Chapel-Sant-Alverzh",
+    "place": "village",
+    "ref:INSEE": "35063"
+  }
+},
+{
+  "type": "node",
+  "id": 886597145,
+  "lat": 48.1274705,
+  "lon": -2.1573228,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35290",
+    "name": "Muel",
+    "name:br": "Moel",
+    "place": "village",
+    "population": "816",
+    "ref:FR:SIREN": "213502016",
+    "ref:INSEE": "35201",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1195811726,
+  "lat": 48.1670889,
+  "lon": -2.0651766,
+  "tags": {
+    "addr:postcode": "35360",
+    "name": "Boisgervilly",
+    "name:br": "Koad-Yarnvili",
+    "place": "village",
+    "population": "1513",
+    "ref:INSEE": "35027",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1371896170,
+  "lat": 48.2175823,
+  "lon": -1.6962403,
+  "tags": {
+    "addr:postcode": "35520",
+    "name": "Melesse",
+    "name:br": "Meled",
+    "name:fr": "Melesse",
+    "name:uk": "Мелесс",
+    "place": "village",
+    "population": "5577",
+    "ref:INSEE": "35173",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Melesse"
+  }
+},
+{
+  "type": "node",
+  "id": 1396419668,
+  "lat": 48.1290768,
+  "lon": -2.0336601,
+  "tags": {
+    "addr:postcode": "35750",
+    "name": "Iffendic",
+    "name:br": "Ilfentig",
+    "place": "village",
+    "population": "4291",
+    "ref:INSEE": "35133",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1432607732,
+  "lat": 48.5513314,
+  "lon": -1.5845373,
+  "tags": {
+    "addr:postcode": "35610",
+    "name": "Sains",
+    "name:br": "Sent",
+    "name:uk": "Сен",
+    "place": "village",
+    "population": "482",
+    "ref:INSEE": "35248",
+    "wikipedia": "fr:Sains (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 1433066248,
+  "lat": 48.5101221,
+  "lon": -1.5230205,
+  "tags": {
+    "addr:postcode": "35610",
+    "name": "Sougéal",
+    "name:br": "Sulial",
+    "place": "village",
+    "population": "642",
+    "ref:INSEE": "35329",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1433077156,
+  "lat": 48.4605492,
+  "lon": -1.4855569,
+  "tags": {
+    "addr:postcode": "35560",
+    "name": "Antrain",
+    "name:br": "Entraven",
+    "name:fr": "Antrain",
+    "place": "village",
+    "population": "1393",
+    "ref:INSEE": "35004",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1591476129,
+  "lat": 48.5619684,
+  "lon": -1.9286313,
+  "tags": {
+    "addr:postcode": "35430",
+    "name": "Châteauneuf-d'Ille-et-Vilaine",
+    "name:br": "Kastell-Noez",
+    "name:uk": "Шатонеф-д'Іль-е-Вілен",
+    "place": "village",
+    "population": "1249",
+    "ref:INSEE": "35070",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Châteauneuf-d'Ille-et-Vilaine"
+  }
+},
+{
+  "type": "node",
+  "id": 1591550869,
+  "lat": 48.5272074,
+  "lon": -1.8461116,
+  "tags": {
+    "addr:postcode": "35540",
+    "name": "Plerguer",
+    "name:br": "Plergar",
+    "name:uk": "Плерге",
+    "place": "village",
+    "population": "2284",
+    "ref:INSEE": "35224",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Plerguer"
+  }
+},
+{
+  "type": "node",
+  "id": 1600641510,
+  "lat": 48.5337909,
+  "lon": -1.5636991,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35610",
+    "name": "Pleine-Fougères",
+    "name:br": "Planfili",
+    "name:uk": "Плен-Фужер",
+    "place": "village",
+    "population": "1963",
+    "ref:INSEE": "35222",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Pleine-Fougères"
+  }
+},
+{
+  "type": "node",
+  "id": 1600641512,
+  "lat": 48.5682891,
+  "lon": -1.5487738,
+  "tags": {
+    "addr:postcode": "35610",
+    "name": "Saint-Georges-de-Gréhaigne",
+    "name:br": "Sant-Jord-Grehan",
+    "name:uk": "Сен-Жорж-де-Греень",
+    "place": "village",
+    "population": "342",
+    "ref:INSEE": "35270",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Georges-de-Gréhaigne"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133726,
+  "lat": 47.8148914,
+  "lon": -2.0193402,
+  "tags": {
+    "addr:postcode": "35550",
+    "name": "Bruc-sur-Aff",
+    "place": "village",
+    "population": "845",
+    "ref:INSEE": "35045",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133749,
+  "lat": 47.8221950,
+  "lon": -1.2443964,
+  "tags": {
+    "addr:postcode": "35640",
+    "name": "Eancé",
+    "place": "village",
+    "population": "399",
+    "ref:INSEE": "35103"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133755,
+  "lat": 48.0982700,
+  "lon": -1.1249516,
+  "tags": {
+    "PCET_charte": "non",
+    "addr:postcode": "35500",
+    "name": "Erbrée",
+    "place": "village",
+    "population": "1664",
+    "ref:INSEE": "35105",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Erbrée"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133762,
+  "lat": 47.9885433,
+  "lon": -1.1235595,
+  "tags": {
+    "addr:postcode": "35370",
+    "name": "Gennes-sur-Seiche",
+    "place": "village",
+    "population": "814",
+    "ref:INSEE": "35119",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Gennes-sur-Seiche"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133776,
+  "lat": 48.3129244,
+  "lon": -1.8974199,
+  "tags": {
+    "addr:postcode": "35190",
+    "name": "La Baussaine",
+    "place": "village",
+    "population": "623",
+    "ref:INSEE": "35017"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133786,
+  "lat": 48.2123589,
+  "lon": -1.9907722,
+  "tags": {
+    "addr:postcode": "35360",
+    "name": "La Chapelle-du-Lou",
+    "place": "village",
+    "population": "723",
+    "ref:INSEE": "35060",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133795,
+  "lat": 48.4679206,
+  "lon": -1.5033799,
+  "tags": {
+    "addr:postcode": "35560",
+    "name": "La Fontenelle",
+    "name:br": "Ar Fantanig",
+    "place": "village",
+    "population": "541",
+    "ref:INSEE": "35113",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133805,
+  "lat": 48.1625529,
+  "lon": -1.9795561,
+  "tags": {
+    "addr:postcode": "35137",
+    "name": "La Nouaye",
+    "place": "village",
+    "population": "294",
+    "ref:INSEE": "35203",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133820,
+  "lat": 47.9276912,
+  "lon": -1.6083077,
+  "tags": {
+    "addr:postcode": "35320",
+    "name": "Le Petit-Fougeray",
+    "place": "village",
+    "population": "870",
+    "ref:INSEE": "35218",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133824,
+  "lat": 48.2043862,
+  "lon": -1.1460727,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35210",
+    "name": "Montautour",
+    "place": "village",
+    "population": "249",
+    "ref:INSEE": "35185",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Montautour"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133828,
+  "lat": 48.2729108,
+  "lon": -1.2906061,
+  "tags": {
+    "addr:postcode": "35140",
+    "name": "Saint-Georges-de-Chesné",
+    "place": "village",
+    "population": "602",
+    "ref:INSEE": "35269",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133854,
+  "lat": 48.2884779,
+  "lon": -1.9870775,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35190",
+    "name": "Saint-Pern",
+    "place": "village",
+    "population": "966",
+    "ref:INSEE": "35307"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133863,
+  "lat": 47.9154697,
+  "lon": -1.5889099,
+  "tags": {
+    "addr:postcode": "35320",
+    "name": "Saulnières",
+    "place": "village",
+    "population": "702",
+    "ref:INSEE": "35321"
+  }
+},
+{
+  "type": "node",
+  "id": 1698133871,
+  "lat": 48.5114519,
+  "lon": -1.5446441,
+  "tags": {
+    "addr:postcode": "35610",
+    "name": "Vieux-Viel",
+    "name:br": "Henwiel",
+    "place": "village",
+    "population": "288",
+    "ref:INSEE": "35354"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338388,
+  "lat": 47.9510829,
+  "lon": -1.5375662,
+  "tags": {
+    "addr:postcode": "35150",
+    "name": "Brie",
+    "place": "village",
+    "population": "812",
+    "ref:INSEE": "35041",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338405,
+  "lat": 48.1408228,
+  "lon": -1.1005990,
+  "tags": {
+    "PCET_charte": "non",
+    "addr:postcode": "35500",
+    "name": "La Chapelle-Erbrée",
+    "place": "village",
+    "population": "630",
+    "ref:INSEE": "35061",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:La Chapelle-Erbrée"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338416,
+  "lat": 47.9513937,
+  "lon": -1.3558898,
+  "tags": {
+    "addr:postcode": "35240",
+    "name": "Marcillé-Robert",
+    "place": "village",
+    "population": "941",
+    "ref:INSEE": "35165",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338436,
+  "lat": 48.0843838,
+  "lon": -1.0986973,
+  "tags": {
+    "addr:postcode": "35370",
+    "name": "Mondevert",
+    "place": "village",
+    "population": "771",
+    "ref:INSEE": "35183",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Mondevert"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338437,
+  "lat": 48.0941566,
+  "lon": -1.2959963,
+  "tags": {
+    "addr:postcode": "35500",
+    "name": "Saint-Aubin-des-Landes",
+    "place": "village",
+    "population": "912",
+    "ref:INSEE": "35252",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-Aubin-des-Landes"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338439,
+  "lat": 48.0115522,
+  "lon": -1.1662593,
+  "tags": {
+    "addr:postcode": "35370",
+    "name": "Saint-Germain-du-Pinel",
+    "place": "village",
+    "population": "869",
+    "ref:INSEE": "35272",
+    "wikipedia": "fr:Saint-Germain-du-Pinel"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338443,
+  "lat": 48.1784037,
+  "lon": -1.1169757,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35500",
+    "name": "Saint-M'Hervé",
+    "place": "village",
+    "population": "1370",
+    "ref:INSEE": "35300",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Saint-M'Hervé"
+  }
+},
+{
+  "type": "node",
+  "id": 1698338447,
+  "lat": 48.0362625,
+  "lon": -1.2659418,
+  "tags": {
+    "addr:postcode": "35680",
+    "name": "Vergéal",
+    "place": "village",
+    "population": "734",
+    "ref:INSEE": "35350",
+    "wikipedia": "fr:Vergéal"
+  }
+},
+{
+  "type": "node",
+  "id": 1712266484,
+  "lat": 48.0083592,
+  "lon": -1.0891656,
+  "tags": {
+    "PCET_charte": "non",
+    "addr:postcode": "35370",
+    "name": "Brielles",
+    "place": "village",
+    "population": "666",
+    "ref:INSEE": "35042",
+    "wikipedia": "fr:Brielles"
+  }
+},
+{
+  "type": "node",
+  "id": 1712266485,
+  "lat": 47.9013044,
+  "lon": -1.2654621,
+  "tags": {
+    "addr:postcode": "35130",
+    "name": "Drouges",
+    "place": "village",
+    "population": "515",
+    "ref:INSEE": "35102"
+  }
+},
+{
+  "type": "node",
+  "id": 1712266486,
+  "lat": 47.6997445,
+  "lon": -1.9344425,
+  "tags": {
+    "addr:postcode": "35660",
+    "name": "La Chapelle-de-Brain",
+    "place": "village",
+    "population": "948",
+    "ref:INSEE": "35064"
+  }
+},
+{
+  "type": "node",
+  "id": 1712266487,
+  "lat": 47.8956742,
+  "lon": -1.6116559,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35320",
+    "name": "Le Sel-de-Bretagne",
+    "place": "village",
+    "population": "915",
+    "ref:INSEE": "35322",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1712266488,
+  "lat": 48.2281825,
+  "lon": -2.0588877,
+  "tags": {
+    "addr:postcode": "35360",
+    "name": "Saint-M'Hervon",
+    "place": "village",
+    "population": "434",
+    "ref:INSEE": "35301"
+  }
+},
+{
+  "type": "node",
+  "id": 1714230882,
+  "lat": 48.3838349,
+  "lon": -1.8246691,
+  "tags": {
+    "addr:postcode": "35190",
+    "name": "La Chapelle-aux-Filtzméens",
+    "place": "village",
+    "population": "764",
+    "ref:INSEE": "35056",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714237965,
+  "lat": 48.5530771,
+  "lon": -1.6992081,
+  "tags": {
+    "addr:postcode": "35120",
+    "name": "Baguer-Pican",
+    "place": "village",
+    "population": "1380",
+    "ref:INSEE": "35010",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714256966,
+  "lat": 48.4627311,
+  "lon": -1.4417744,
+  "tags": {
+    "addr:postcode": "35460",
+    "name": "Saint-Ouen-la-Rouërie",
+    "name:br": "Sant-Owen-Reoger",
+    "place": "village",
+    "population": "792",
+    "ref:INSEE": "35303",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714274807,
+  "lat": 48.0803140,
+  "lon": -1.3082492,
+  "tags": {
+    "addr:postcode": "35500",
+    "name": "Cornillé",
+    "place": "village",
+    "population": "860",
+    "ref:INSEE": "35087",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Cornillé"
+  }
+},
+{
+  "type": "node",
+  "id": 1714280092,
+  "lat": 48.0620743,
+  "lon": -1.2673254,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35370",
+    "name": "Torcé",
+    "place": "village",
+    "population": "1147",
+    "ref:INSEE": "35338",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Torcé"
+  }
+},
+{
+  "type": "node",
+  "id": 1714281533,
+  "lat": 48.0355151,
+  "lon": -1.3806526,
+  "tags": {
+    "addr:postcode": "35680",
+    "name": "Chancé",
+    "place": "village",
+    "population": "304",
+    "ref:INSEE": "35053",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714287792,
+  "lat": 47.9962470,
+  "lon": -1.2414842,
+  "tags": {
+    "addr:postcode": "35680",
+    "name": "Domalain",
+    "place": "village",
+    "population": "1958",
+    "ref:INSEE": "35097",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Domalain"
+  }
+},
+{
+  "type": "node",
+  "id": 1714288703,
+  "lat": 47.9697818,
+  "lon": -1.4013536,
+  "tags": {
+    "addr:postcode": "35150",
+    "name": "Boistrudan",
+    "place": "village",
+    "population": "670",
+    "ref:INSEE": "35028",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714294153,
+  "lat": 47.9204169,
+  "lon": -1.4293785,
+  "tags": {
+    "addr:postcode": "35240",
+    "name": "Le Theil-de-Bretagne",
+    "place": "village",
+    "population": "1556",
+    "ref:INSEE": "35333",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714297629,
+  "lat": 47.8877284,
+  "lon": -1.5058141,
+  "tags": {
+    "addr:postcode": "35320",
+    "name": "La Couyère",
+    "place": "village",
+    "population": "501",
+    "ref:INSEE": "35089",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714308102,
+  "lat": 47.9049712,
+  "lon": -1.7881315,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35580",
+    "name": "Saint-Senoux",
+    "place": "village",
+    "population": "1695",
+    "ref:INSEE": "35312",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714318366,
+  "lat": 47.8034377,
+  "lon": -1.7407534,
+  "tags": {
+    "addr:postcode": "35470",
+    "name": "La Noë-Blanche",
+    "place": "village",
+    "population": "976",
+    "ref:INSEE": "35202",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714346832,
+  "lat": 47.7627462,
+  "lon": -1.6873923,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35390",
+    "name": "La Dominelais",
+    "place": "village",
+    "population": "1253",
+    "ref:INSEE": "35098",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714350818,
+  "lat": 47.7665513,
+  "lon": -1.6226470,
+  "tags": {
+    "addr:postcode": "35390",
+    "name": "Saint-Sulpice-des-Landes",
+    "place": "village",
+    "population": "806",
+    "ref:INSEE": "35316",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714355833,
+  "lat": 47.7652694,
+  "lon": -1.9610443,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35550",
+    "name": "Saint-Just",
+    "place": "village",
+    "population": "1058",
+    "ref:INSEE": "35285",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1714355838,
+  "lat": 47.6947887,
+  "lon": -2.0002226,
+  "tags": {
+    "addr:postcode": "35600",
+    "name": "Sainte-Marie",
+    "place": "village",
+    "population": "2275",
+    "ref:INSEE": "35294",
+    "source:population": "INSEE 2013",
+    "wikipedia": "fr:Sainte-Marie (Ille-et-Vilaine)"
+  }
+},
+{
+  "type": "node",
+  "id": 1714358635,
+  "lat": 47.7760854,
+  "lon": -2.0803355,
+  "tags": {
+    "addr:postcode": "35550",
+    "name": "Sixt-sur-Aff",
+    "place": "village",
+    "population": "2152",
+    "ref:INSEE": "35328",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1870167706,
+  "lat": 47.9365006,
+  "lon": -2.0092050,
+  "tags": {
+    "addr:postcode": "35330",
+    "name": "Campel",
+    "name:br": "Kempel",
+    "place": "village",
+    "population": "513",
+    "ref:INSEE": "35048",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1871384388,
+  "lat": 47.8065354,
+  "lon": -1.5378472,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35620",
+    "name": "Teillay",
+    "name:br": "Tilheg",
+    "place": "village",
+    "population": "997",
+    "ref:INSEE": "35332",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1871413866,
+  "lat": 47.8536790,
+  "lon": -2.0058134,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35330",
+    "name": "Saint-Séglin",
+    "place": "village",
+    "population": "478",
+    "ref:INSEE": "35311",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1871432555,
+  "lat": 47.8888664,
+  "lon": -2.0425928,
+  "tags": {
+    "addr:postcode": "35330",
+    "name": "Les Brulais",
+    "place": "village",
+    "population": "465",
+    "ref:INSEE": "35046",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1871765083,
+  "lat": 48.0430665,
+  "lon": -1.6621461,
+  "tags": {
+    "addr:postcode": "35230",
+    "name": "Noyal-Châtillon-sur-Seiche",
+    "name:br": "Noal-Kastellan",
+    "place": "village",
+    "population": "6250",
+    "ref:INSEE": "35206",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 1871765084,
+  "lat": 48.0452053,
+  "lon": -1.6045972,
+  "tags": {
+    "OGM": "non",
+    "addr:postcode": "35770",
+    "name": "Vern-sur-Seiche",
+    "name:br": "Gwern-ar-Sec'h",
+    "place": "village",
+    "population": "8146",
+    "ref:INSEE": "35352",
+    "source:population": "INSEE 2013"
+  }
+},
+{
+  "type": "node",
+  "id": 2708062985,
+  "lat": 47.9659271,
+  "lon": -1.7970987,
+  "tags": {
+    "addr:postcode": "35580",
+    "name": "Guichen",
+    "name:br": "Gwizien",
+    "name:fr": "Guichen",
+    "place": "village",
+    "population": "7648",
+    "population:date": "2011",
+    "ref:INSEE": "35126",
+    "source:population": "INSEE",
+    "website": "http://www.guichenpontrean.fr/",
+    "wikipedia": "fr:Guichen"
+  }
+},
+{
+  "type": "node",
+  "id": 2826967208,
+  "lat": 48.2089066,
+  "lon": -1.9931982,
+  "tags": {
+    "addr:postcode": "35360",
+    "name": "Le Lou-du-Lac",
+    "name:br": "Al Loc'h",
+    "place": "village",
+    "population": "96",
+    "ref:INSEE": "35158",
+    "source:population": "INSEE 2013"
+  }
+}
+
+  ]
+}
