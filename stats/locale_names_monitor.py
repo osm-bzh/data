@@ -5,7 +5,7 @@
 #
 # Author:      Maël REBOUX
 #
-# Created:     07/2017
+# Created:     09/2017
 # Licence:     GNU GPL 3
 #
 #  this script make request to the french TagInfo OSM server  https://taginfo.openstreetmap.fr/api/4/
@@ -29,11 +29,20 @@
 import array
 import urllib2
 import json
+import datetime
 
 
 #  set langages array
 langs = ["br", "eu", "oc", "gsw", "ca", "co"]
 #langs = ["br"]
+
+# open the CSV file
+f_csv = open('stats_locale_names.csv','a')
+
+# get the today date
+now = datetime.datetime.now()
+dday = now.strftime("%Y-%m-%d")
+
 
 # loop on each langage
 
@@ -53,6 +62,9 @@ for lang in langs :
 
 	print "   name:" + lang + " : " + name_object_count + " | " + name_values_count  + " | " + name_users_count
 
+	# write these stat into the file
+	f_csv.write(dday + "," + lang + ",name:"+lang + "," + name_object_count + "\n")
+
 
 	# get source:name:{code} stats in JSON
 	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=source%3Aname%3A" + lang + "&sortname=&sortorder=")
@@ -67,6 +79,10 @@ for lang in langs :
 	print "   source:name:" + lang + " : " + src_name_objects_count + " | " + src_name_values_count  + " | " + src_name_users_count
 
 
+	# write these stat into the file
+	f_csv.write(dday + "," + lang + ",source:name:"+lang + "," + name_object_count + "\n")
+
+
 	# get source:name values for survey
 	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/values?key=source:name:br&filter=all&lang=fr&sortname=count&sortorder=desc&page=1&rp=21&qtype=value")
 	opener = urllib2.build_opener()
@@ -74,4 +90,7 @@ for lang in langs :
 	json_src_name_values = json.loads(f.read())
 	print json_src_name_values
 
+
+# close the CSV file
+f_csv.close
 
