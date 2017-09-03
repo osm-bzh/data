@@ -84,11 +84,11 @@ for lang in langs :
 
 
 	# get source:name values for survey
-	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/values?key=source:name:br&filter=all&lang=fr&sortname=count&sortorder=desc&page=1&rp=21&qtype=value")
-	opener = urllib2.build_opener()
-	f = opener.open(req)
-	json_src_name_values = json.loads(f.read())
-	print json_src_name_values
+	#req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/values?key=source:name:br&filter=all&lang=fr&sortname=count&sortorder=desc&page=1&rp=21&qtype=value")
+	#opener = urllib2.build_opener()
+	#f = opener.open(req)
+	#json_src_name_values = json.loads(f.read())
+	#print json_src_name_values
 
 
 # close the CSV file
