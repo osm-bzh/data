@@ -38,6 +38,7 @@ langs = ["br", "eu", "oc", "gsw", "ca", "co"]
 
 # open the CSV file
 f_csv = open('stats_locale_names.csv','a')
+#f_csv = open('test.csv','a')
 
 # get the today date
 now = datetime.datetime.now()
@@ -72,15 +73,15 @@ for lang in langs :
 	f = opener.open(req)
 	json_src_name = json.loads(f.read())
 	
-	src_name_objects_count = str(json_src_name['data'][0]['count'])
+	src_name_object_count = str(json_src_name['data'][0]['count'])
 	src_name_values_count = str(json_src_name['data'][0]['values'])
 	src_name_users_count = '0'
 
-	print "   source:name:" + lang + " : " + src_name_objects_count + " | " + src_name_values_count  + " | " + src_name_users_count
+	print "   source:name:" + lang + " : " + src_name_object_count + " | " + src_name_values_count  + " | " + src_name_users_count
 
 
 	# write these stat into the file
-	f_csv.write(dday + "," + lang + ",source:name:"+lang + "," + name_object_count + "\n")
+	f_csv.write(dday + "," + lang + ",source:name:"+lang + "," + src_name_object_count + "\n")
 
 
 	# get source:name values for survey
