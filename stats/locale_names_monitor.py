@@ -18,6 +18,15 @@
 #			gsw = alsacien
 #			ca = catalan
 #			co = corse
+#			frp = arpitan / franco-provençal
+#			gcf = créole guadeloupéen
+#			gyn = créole guyanais
+#			gcr = créole réunionnais
+#			vls = flamand
+#			frk = francique
+#			ty = tahitien
+#			fr-x-gallo = gallo
+#			fr-x-norman = normand
 #		tags :
 #			name:{code}
 #			source:name:{code}
@@ -33,7 +42,7 @@ import datetime
 
 
 #  set langages array
-langs = ["br", "eu", "oc", "gsw", "ca", "co"]
+langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "gcf", "gyn", "gcr", "vls", "frk", "ty", "fr-x-gallo", "fr-x-norman"]
 #langs = ["br"]
 
 # open the CSV file
