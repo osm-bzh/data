@@ -72,9 +72,6 @@ for lang in langs :
 
 	print "   name:" + lang + " : " + name_object_count + " | " + name_values_count  + " | " + name_users_count
 
-	# write these stat into the file
-	f_csv.write(dday + "," + lang + ",name:"+lang + "," + name_object_count + "\n")
-
 
 	# get source:name:{code} stats in JSON
 	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=source%3Aname%3A" + lang + "&sortname=&sortorder=")
@@ -87,10 +84,10 @@ for lang in langs :
 	src_name_users_count = '0'
 
 	print "   source:name:" + lang + " : " + src_name_object_count + " | " + src_name_values_count  + " | " + src_name_users_count
+	
 
-
-	# write these stat into the file
-	f_csv.write(dday + "," + lang + ",source:name:"+lang + "," + src_name_object_count + "\n")
+	# write stats in the CSV file
+	f_csv.write(dday +","+ lang +","+ name_object_count +","+ name_values_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
 
 
 	# get source:name values for survey
