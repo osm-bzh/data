@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 28/09/2017
+# 03/01/2018
 
 # script exécuté par cron pour
 # 1. exécuter un script python pour faire des stats sur taginfo de OSM
@@ -9,6 +9,7 @@
 
 cd /data/osm/osm-bzh-data/stats
 python locale_names_monitor.py
+python locale_names_monitor_ti_org.py
 
 git add stats_locale_names.csv
 git commit -m 'maj mensuelle automatique'

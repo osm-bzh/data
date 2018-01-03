@@ -42,7 +42,7 @@ import datetime
 
 
 #  set langages array
-langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo", "fr-x-norman"]
+langs = ["gcf", "gyn", "gcr", "ty"]
 #langs = ["br"]
 
 # open the CSV file
@@ -55,7 +55,7 @@ dday = now.strftime("%Y-%m-%d")
 
 
 # only one taginfo service for the moment
-taginfo_service = "taginfo fr"
+taginfo_service = "taginfo org"
 
 # loop on each langage
 
@@ -64,7 +64,7 @@ for lang in langs :
 	print "   " + lang
 
 	# get name:{code} stats in JSON
-	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=name%3A" + lang + "&sortname=&sortorder=")
+	req = urllib2.Request("https://taginfo.openstreetmap.org/api/4/key/stats?key=name%3A" + lang + "&sortname=&sortorder=")
 	opener = urllib2.build_opener()
 	f = opener.open(req)
 	json_name = json.loads(f.read())
@@ -77,7 +77,7 @@ for lang in langs :
 
 
 	# get source:name:{code} stats in JSON
-	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=source%3Aname%3A" + lang + "&sortname=&sortorder=")
+	req = urllib2.Request("https://taginfo.openstreetmap.org/api/4/key/stats?key=source%3Aname%3A" + lang + "&sortname=&sortorder=")
 	opener = urllib2.build_opener()
 	f = opener.open(req)
 	json_src_name = json.loads(f.read())
