@@ -68,7 +68,7 @@ for lang in langs :
 	
 	name_object_count = str(json_name['data'][0]['count'])
 	name_values_count = str(json_name['data'][0]['values'])
-	name_users_count = '0'
+	name_users_count = ''
 
 	print "   name:" + lang + " : " + name_object_count + " | " + name_values_count  + " | " + name_users_count
 
@@ -81,13 +81,13 @@ for lang in langs :
 	
 	src_name_object_count = str(json_src_name['data'][0]['count'])
 	src_name_values_count = str(json_src_name['data'][0]['values'])
-	src_name_users_count = '0'
+	src_name_users_count = ''
 
 	print "   source:name:" + lang + " : " + src_name_object_count + " | " + src_name_values_count  + " | " + src_name_users_count
-	
+
 
 	# write stats in the CSV file
-	f_csv.write(dday +","+ lang +","+ name_object_count +","+ name_values_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
+	f_csv.write(dday +","+ lang +","+ name_object_count +","+ name_values_count +","+ name_users_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
 
 
 	# get source:name values for survey
