@@ -54,6 +54,9 @@ now = datetime.datetime.now()
 dday = now.strftime("%Y-%m-%d")
 
 
+# only one taginfo service for the moment
+taginfo_service = "taginfo fr"
+
 # loop on each langage
 
 for lang in langs :
@@ -87,7 +90,7 @@ for lang in langs :
 
 
 	# write stats in the CSV file
-	f_csv.write(dday +","+ lang +","+ name_object_count +","+ name_values_count +","+ name_users_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
+	f_csv.write(dday +","+ taginfo_service +","+ lang +","+ name_object_count +","+ name_values_count +","+ name_users_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
 
 
 	# get source:name values for survey
