@@ -42,7 +42,7 @@ import datetime
 
 
 #  set langages array
-langs = ["gcf", "gyn", "gcr", "ty"]
+langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo", "fr-x-norman", "name:fr-x-fc", "gcf", "gyn", "gcr", "ty"]
 #langs = ["br"]
 
 # open the CSV file
