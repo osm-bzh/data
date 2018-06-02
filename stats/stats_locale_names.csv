@@ -88,7 +88,7 @@ date,service,language,name_object_count,name_values_count,name_users_count,src_n
 2018-03-02,taginfo org,gyn,0,0,,0,0,
 2018-03-02,taginfo org,gcr,0,0,,0,0,
 2018-03-02,taginfo org,ty,122,82,,0,0,
-2018-06-02,taginfo fr,br,34985,19230,,11632,102,
+2018-06-02,taginfo fr,br,34985,19230,677,11632,102,
 2018-06-02,taginfo fr,eu,2608,1532,,0,0,
 2018-06-02,taginfo fr,oc,4127,2258,,1067,60,
 2018-06-02,taginfo fr,gsw,1883,866,,0,0,
