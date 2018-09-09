@@ -8,6 +8,8 @@
 # Created:     09/2017
 # Licence:     GNU GPL 3
 #
+# Python 2.7
+#
 #  this script make request to the french TagInfo OSM server  https://taginfo.openstreetmap.fr/api/4/
 #  to get this stats on local name tags. see  http://wiki.openstreetmap.org/wiki/FR:Noms_multilingues
 #
