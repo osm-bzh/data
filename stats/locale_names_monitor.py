@@ -45,7 +45,10 @@ import sys
 # current absolute path directory
 script_dir = os.path.dirname(os.path.abspath(__file__)) + '/'
 
-#  set langages array
+# set tag_info service array
+taginfo_services = ['fr', 'org']
+
+# set langages array
 langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo", "fr-x-norman", "name:fr-x-fc"]
 #langs = ["br"]
 
@@ -58,55 +61,56 @@ now = datetime.datetime.now()
 dday = now.strftime("%Y-%m-%d")
 
 
-# only one taginfo service for the moment
-taginfo_service = "taginfo fr"
+# loop on each tag info service
+for taginfo_service in taginfo_services :
 
-print "+++++++++++++++++++++++++++++++++++++++++++"
-print "   " + taginfo_service + ' - ' + dday
-print "+++++++++++++++++++++++++++++++++++++++++++"
+	print ""
+	print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	print "   taginfo.openstreetmap." + taginfo_service + ' - ' + dday
 
-# loop on each langage
+	# loop now on each langage
 
-for lang in langs :
-	print "+++++++++++++++++++++++++++++++++++++++++++"
-	print "   " + lang
+	for lang in langs :
+		print ""
+		print "   " + lang
 
-	# get name:{code} stats in JSON
-	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=name%3A" + lang + "&sortname=&sortorder=")
-	opener = urllib2.build_opener()
-	f = opener.open(req)
-	json_name = json.loads(f.read())
-	
-	name_object_count = str(json_name['data'][0]['count'])
-	name_values_count = str(json_name['data'][0]['values'])
-	name_users_count = ''
+		# get name:{code} stats in JSON
+		req = urllib2.Request("https://taginfo.openstreetmap." + taginfo_service + "/api/4/key/stats?key=name%3A" + lang + "&sortname=&sortorder=")
+		opener = urllib2.build_opener()
+		f = opener.open(req)
+		json_name = json.loads(f.read())
+		
+		name_object_count = str(json_name['data'][0]['count'])
+		name_values_count = str(json_name['data'][0]['values'])
+		name_users_count = ''
 
-	print "   name:" + lang + " : " + name_object_count + " | " + name_values_count  + " | " + name_users_count
-
-
-	# get source:name:{code} stats in JSON
-	req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=source%3Aname%3A" + lang + "&sortname=&sortorder=")
-	opener = urllib2.build_opener()
-	f = opener.open(req)
-	json_src_name = json.loads(f.read())
-	
-	src_name_object_count = str(json_src_name['data'][0]['count'])
-	src_name_values_count = str(json_src_name['data'][0]['values'])
-	src_name_users_count = ''
-
-	print "   source:name:" + lang + " : " + src_name_object_count + " | " + src_name_values_count  + " | " + src_name_users_count
+		print "   name:" + lang + " : " + name_object_count + " | " + name_values_count  + " | " + name_users_count
 
 
-	# write stats in the CSV file
-	f_csv.write(dday +","+ taginfo_service +","+ lang +","+ name_object_count +","+ name_values_count +","+ name_users_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
+		# get source:name:{code} stats in JSON
+		req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/stats?key=source%3Aname%3A" + lang + "&sortname=&sortorder=")
+		opener = urllib2.build_opener()
+		f = opener.open(req)
+		json_src_name = json.loads(f.read())
+		
+		src_name_object_count = str(json_src_name['data'][0]['count'])
+		src_name_values_count = str(json_src_name['data'][0]['values'])
+		src_name_users_count = ''
+
+		print "   source:name:" + lang + " : " + src_name_object_count + " | " + src_name_values_count  + " | " + src_name_users_count
 
 
-	# get source:name values for survey
-	#req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/values?key=source:name:br&filter=all&lang=fr&sortname=count&sortorder=desc&page=1&rp=21&qtype=value")
-	#opener = urllib2.build_opener()
-	#f = opener.open(req)
-	#json_src_name_values = json.loads(f.read())
-	#print json_src_name_values
+		# write stats in the CSV file
+		f_csv.write(dday +","+ taginfo_service +","+ lang +","+ name_object_count +","+ name_values_count +","+ name_users_count +","+ src_name_object_count +","+ src_name_values_count +","+ src_name_users_count +"\n")
+
+
+		# get source:name values for survey
+		#req = urllib2.Request("https://taginfo.openstreetmap.fr/api/4/key/values?key=source:name:br&filter=all&lang=fr&sortname=count&sortorder=desc&page=1&rp=21&qtype=value")
+		#opener = urllib2.build_opener()
+		#f = opener.open(req)
+		#json_src_name_values = json.loads(f.read())
+		#print json_src_name_values
 
 
 # close the CSV file
