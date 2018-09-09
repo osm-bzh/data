@@ -51,7 +51,7 @@ langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo",
 
 # open the CSV file
 f_csv = open(script_dir + 'stats_locale_names.csv','a')
-#f_csv = open('test.csv','a')
+#f_csv = open(script_dir + 'test.csv','a')
 
 # get the today date
 now = datetime.datetime.now()
@@ -60,6 +60,10 @@ dday = now.strftime("%Y-%m-%d")
 
 # only one taginfo service for the moment
 taginfo_service = "taginfo org"
+
+print "+++++++++++++++++++++++++++++++++++++++++++"
+print "   " + taginfo_service + ' - ' + dday
+print "+++++++++++++++++++++++++++++++++++++++++++"
 
 # loop on each langage
 
