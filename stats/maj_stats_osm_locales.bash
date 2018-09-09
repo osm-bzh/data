@@ -9,7 +9,6 @@
 
 cd /data/osm/osm-bzh-data/stats
 python locale_names_monitor.py
-python locale_names_monitor_ti_org.py
 
 git add stats_locale_names.csv
 git commit -m 'maj mensuelle automatique'
