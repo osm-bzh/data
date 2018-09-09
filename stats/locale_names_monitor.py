@@ -39,14 +39,18 @@ import array
 import urllib2
 import json
 import datetime
+import os.path
+import sys
 
+# current absolute path directory
+script_dir = os.path.dirname(os.path.abspath(__file__)) + '/'
 
 #  set langages array
 langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo", "fr-x-norman", "name:fr-x-fc"]
 #langs = ["br"]
 
 # open the CSV file
-f_csv = open('stats_locale_names.csv','a')
+f_csv = open(script_dir + 'stats_locale_names.csv','a')
 #f_csv = open('test.csv','a')
 
 # get the today date
