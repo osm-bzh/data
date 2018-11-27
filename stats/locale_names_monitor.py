@@ -29,6 +29,7 @@
 #			ty = tahitien
 #			fr-x-gallo = gallo
 #			fr-x-norman = normand
+#			fr-x-fc = franc-comtois
 #		tags :
 #			name:{code}
 #			source:name:{code}
@@ -51,7 +52,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__)) + '/'
 taginfo_services = ['fr', 'org']
 
 # set langages array
-langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo", "fr-x-norman", "name:fr-x-fc"]
+langs = ["br", "eu", "oc", "gsw", "ca", "co", "frp", "vls", "frk", "fr-x-gallo", "fr-x-norman", "fr-x-fc"]
 #langs = ["br"]
 
 # open the CSV file
