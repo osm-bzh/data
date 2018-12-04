@@ -5,6 +5,8 @@
 # destination files path
 dest_path="/data/tiles/data/oc/"
 
+# erase
+rm /data/tiles/data/oc/*.*
 
 # GML
 echo "GML..."
