@@ -10,7 +10,7 @@ Voir http://wiki.openstreetmap.org/wiki/FR:Noms_multilingues
 ## Installation
 
 ```python
-python3 venv venv
+python3 -m venv venv
 source venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
