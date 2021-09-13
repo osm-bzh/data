@@ -17,7 +17,13 @@ Les statistiques sont écrites dans le fichier CSV `stats_locale_names.csv`
 
 Le script `maj_stats_osm_locales.bash` permet d'automatiser l'exécution du script python en l'installant dans cron.
 
-`# stats OSM
-0 8 2 * * /data/scripts/maj_stats_osm_locales.bash > /data/scripts/maj_stats_osm.log`
+```bash
+# stats OSM
+0 8 2 * * /data/projets/osm-bzh-data/stats/maj_stats_osm_locales.bash > /data/projets/osm-bzh-data/stats/maj_stats_osm.log
+```
 
 On le fait exécuter le 2 de chaque mois pour avoir des données du 1er.
+
+## Production
+
+Le script est actuellement installé sur le serveur bed niverel dans le container bed110
