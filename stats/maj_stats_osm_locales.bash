@@ -12,11 +12,11 @@
 cd /data/projets/osm-bzh-data/stats
 
 source venv/bin/activate
-python locale_names_monitor.py
+python3 locale_names_monitor.py
 
 git add stats_locale_names.csv
 git commit -m 'maj mensuelle automatique'
 
-#git push 'https://{github_user}:{github_token}@github.com/osm-bzh/osm-bzh-data.git' master
+git push 'https://{github_user}:{github_token}@github.com/osm-bzh/osm-bzh-data.git' master
 
 deactivate
