@@ -7,7 +7,7 @@
 # 2. commiter et puller le fichier de stats mis à jour
 
 # lecture du fichier de config pour les infos github
-.config.sh
+. config.sh
 
 cd /data/projets/osm-bzh-data/stats
 
