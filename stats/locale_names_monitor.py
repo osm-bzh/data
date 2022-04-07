@@ -81,7 +81,7 @@ for taginfo_service in taginfo_services :
 		# ++++++++++++++++++++++++++++++++++++++
 		# get name:{code} stats in JSON
 
-		name_request = "https://taginfo.openstreetmap.fr/api/4/key/stats?key=name%3A"+lang+"&sortname=&sortorder="
+		name_request = f"https://taginfo.openstreetmap.{taginfo_service}/api/4/key/stats?key=name%3A{lang}&sortname=&sortorder="
 		req = urllib.request.Request(name_request)
 		with urllib.request.urlopen(req) as response:
 			f = response.read()
@@ -97,7 +97,7 @@ for taginfo_service in taginfo_services :
 		# ++++++++++++++++++++++++++++++++++++++
 		# get source:name:{code} stats in JSON
 
-		src_name_request = "https://taginfo.openstreetmap.fr/api/4/key/stats?key=source%3Aname%3A"+lang+"&sortname=&sortorder="
+		src_name_request = f"https://taginfo.openstreetmap.{taginfo_service}/api/4/key/stats?key=source%3Aname%3A{lang}&sortname=&sortorder="
 		req = urllib.request.Request(src_name_request)
 		with urllib.request.urlopen(req) as response:
 			f = response.read()
